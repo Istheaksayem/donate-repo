@@ -12,12 +12,24 @@
 }
 .btn-primary{
     background-color:#FF5959;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 20px;
     color: white;
-    font-weight: 600;
+     font-weight: 600;  
     border: none;
     border-radius: 8px;
+}
+.donation-item{
+    text-align: center;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.donate-item{
+    font-size: 2rem;
+    color: blue;
 }
 
 
@@ -42,8 +54,16 @@
         padding: 10px 20px;
     }
     }
-
-
+    .items{
+        flex-direction: column;
+        gap: 3px;
+        align-items: center;
+    }
+    .donate-item{
+        font-size: 1.5rem;
+        width: 70%;
+    }
+ 
         
 
     
