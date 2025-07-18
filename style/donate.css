@@ -1,0 +1,50 @@
+.Donation{
+    background-image: url('../images/donation10.jpg');
+    background-size: cover;
+      display: flex;
+    height: 1440px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn-primary{
+    background-color:#FF5959;
+    font-size: 3rem;
+    padding: 20px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+/* Responsive Related style */
+@media screen and (max-width:576px) {
+    .Donation{
+        height: auto;
+        padding: 60px 15px;
+    }
+       .Donation h1 {
+        font-size: 1.8rem;
+        line-height: 1.4;
+    }
+
+    .Donation p {
+        font-size: 1rem;
+    }
+
+    .btn-primary {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+    }
+
+
+        
+
+    
+    
